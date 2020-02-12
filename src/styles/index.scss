@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-$var:#94a8a7;
+// $var:#94a8a7;
 
 body {
-  /* Just to show that you can mix SASS and Tailwind directives */
-  background-color: $var;
+
+  // background-color: $var;
+  @apply bg-orange-500;
 }
 
-/* Tailwind @apply directives will be processed by PostCSS after the SASS rendering takes place */
 
 a { @apply text-blue-600 no-underline border-b-2 border-blue-200 }
 a:hover { @apply text-blue-800 border-blue-600 }

@@ -1,3 +1,7 @@
 {
-  "name": "Hello World"
+  "site": {
+    "video": "/images/Open-Fire.mp4",
+    "logo": "/images/Rebel-48.svg",
+    "fire": "/images/fire-txt-48.svg"
+  }
 }
